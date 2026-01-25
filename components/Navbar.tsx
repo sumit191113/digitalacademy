@@ -17,6 +17,7 @@ const Navbar: React.FC = () => {
 
   const navLinks = [
     { name: 'Home', href: '#home' },
+    { name: 'Notices', href: '#notices' },
     { name: 'About Us', href: '#about' },
     { name: 'Academics', href: '#academics' },
     { name: 'Admissions', href: '#admissions' },
@@ -55,7 +56,7 @@ const Navbar: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
-            <button onClick={() => setIsOpen(!isOpen)} className={scrolled ? 'text-gray-900' : 'text-white'}>
+            <button onClick={() => setIsOpen(!isOpen)} className={scrolled ? 'text-gray-900' : 'text-white'} aria-label="Toggle Menu">
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
           </div>
