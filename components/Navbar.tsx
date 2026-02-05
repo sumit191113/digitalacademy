@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { SCHOOL_NAME, SCHOOL_LOGO } from '../constants';
@@ -17,7 +16,6 @@ const Navbar: React.FC = () => {
 
   const navLinks = [
     { name: 'Home', href: '#home' },
-    { name: 'Notices', href: '#notices' },
     { name: 'About Us', href: '#about' },
     { name: 'Academics', href: '#academics' },
     { name: 'Admissions', href: '#admissions' },

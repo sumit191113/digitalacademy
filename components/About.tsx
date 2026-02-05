@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Target, Eye, ShieldCheck } from 'lucide-react';
+import { Target, Eye, ShieldCheck, Award } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
@@ -16,18 +15,23 @@ const About: React.FC = () => {
             <p className="text-gray-600 mb-6 leading-relaxed">
               Our mission is to bridge the digital divide in rural and urban Barabanki by providing a curriculum that is both technologically advanced and rooted in core human values. Whether you are looking for the best school in Ahmadpur or a modern digital learning partner, SCGM Academy is your destination.
             </p>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6 mt-8">
-              <div className="bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-100">
+            <div className="grid grid-cols-2 gap-4 sm:gap-6 mt-8">
+              <div className="bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-100 hover:border-blue-200 transition-colors">
                 <Target className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 mb-3" aria-hidden="true" />
                 <h4 className="font-bold text-blue-900 text-sm sm:text-base">Our Mission</h4>
                 <p className="text-[10px] sm:text-xs text-gray-500 mt-1">Nurturing potential through digital innovation.</p>
               </div>
-              <div className="bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-100">
+              <div className="bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-100 hover:border-blue-200 transition-colors">
                 <Eye className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 mb-3" aria-hidden="true" />
                 <h4 className="font-bold text-blue-900 text-sm sm:text-base">Our Vision</h4>
                 <p className="text-[10px] sm:text-xs text-gray-500 mt-1">Leading Barabanki's digital educational path.</p>
               </div>
-              <div className="bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-100 col-span-2 sm:col-span-1">
+              <div className="bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-100 hover:border-blue-200 transition-colors">
+                <Award className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 mb-3" aria-hidden="true" />
+                <h4 className="font-bold text-blue-900 text-sm sm:text-base">Our Motto</h4>
+                <p className="text-[10px] sm:text-xs text-gray-500 mt-1">Empowering Minds, Shaping Futures.</p>
+              </div>
+              <div className="bg-white p-4 sm:p-6 rounded-xl shadow-sm border border-gray-100 hover:border-blue-200 transition-colors">
                 <ShieldCheck className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 mb-3" aria-hidden="true" />
                 <h4 className="font-bold text-blue-900 text-sm sm:text-base">Core Values</h4>
                 <p className="text-[10px] sm:text-xs text-gray-500 mt-1">Integrity, Discipline, and Digital Literacy.</p>

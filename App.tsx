@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -11,7 +10,6 @@ import Gallery from './components/Gallery';
 import Faculty from './components/Faculty';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Notices from './components/Notices';
 
 const App: React.FC = () => {
   return (
@@ -25,10 +23,6 @@ const App: React.FC = () => {
         <PrincipalMessage />
         
         <Highlights />
-
-        <section id="notices" className="scroll-mt-header">
-          <Notices />
-        </section>
 
         <section id="about" className="scroll-mt-header">
           <About />
